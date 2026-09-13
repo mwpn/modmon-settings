@@ -5,11 +5,17 @@
 **Version:** 1.0.0  
 **Standard:** Module Authoring Standard v1 §14–15 (portable Definition of Done)  
 **Date:** 2026-09-13  
-**Certified on:** ModMon Foundation host (store Phase 1 + compliance Phase 2)
+**Certified on:** ModMon Foundation host (store Phase 1 + compliance Phase 2);
+final GitHub-only proof 2026-09-13 (`modmon-foundation` `097f225` +
+`modmon-settings` `54b6867` at `C:\laragon\www\modmon-settings-proof`).
 
 **Result:** **FULL COMPLIANCE** for Phase 1 scope (runtime store +
 `RuntimeSettingsContract`). Admin UI / Experience contributions are
 explicitly out of scope and marked N/A.
+
+**Certification status:** **CLOSED** — fresh GitHub-only Windows proof PASS
+(no host source patches): doctor → install → contract → disable/enable
+(data preserved) → watched host files unchanged → 28 module tests passed.
 
 ## Portability procedure
 
