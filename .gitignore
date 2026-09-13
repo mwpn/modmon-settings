@@ -1,0 +1,8 @@
+/vendor/
+/node_modules/
+/.phpunit.result.cache
+/.phpunit.cache
+*.sqlite
+*.sqlite-journal*
+.DS_Store
+Thumbs.db
