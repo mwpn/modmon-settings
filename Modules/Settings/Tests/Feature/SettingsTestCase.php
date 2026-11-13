@@ -25,14 +25,14 @@ abstract class SettingsTestCase extends TestCase
         // Clear lifecycle state before the application boots so a prior
         // CLI install cannot leave Settings enabled into this process.
         $this->modulesJsonPath = dirname(__DIR__, 4).DIRECTORY_SEPARATOR
-            .'storage'.DIRECTORY_SEPARATOR.'app'.DIRECTORY_SEPARATOR.'modules.json';
+            .'storage'.DIRECTORY_SEPARATOR.'framework'.DIRECTORY_SEPARATOR.'testing'.DIRECTORY_SEPARATOR.'modules.json';
         if (file_exists($this->modulesJsonPath)) {
             unlink($this->modulesJsonPath);
         }
 
         parent::setUp();
 
-        $this->modulesJsonPath = storage_path('app/modules.json');
+        $this->modulesJsonPath = storage_path('framework/testing/modules.json');
         if (file_exists($this->modulesJsonPath)) {
             unlink($this->modulesJsonPath);
         }
